@@ -1,3 +1,14 @@
+```
+transfersh.exe --provider=local --listener :8080 --temp-path="D:\Program Files\transfersh" --basedir="D:\Program Files\transfersh"
+```
+```
+上传
+curl -k --upload-file 文件 https://transfer.sh/文件名
+curl -k --upload-file /root/hello.txt https://transfer.sh/hello.txt
+下载
+https://transfer.sh/get/1TghfFb/hello.txt
+```
+
 # transfer.sh [![Go Report Card](https://goreportcard.com/badge/github.com/dutchcoders/transfer.sh)](https://goreportcard.com/report/github.com/dutchcoders/transfer.sh) [![Docker pulls](https://img.shields.io/docker/pulls/dutchcoders/transfer.sh.svg)](https://hub.docker.com/r/dutchcoders/transfer.sh/) [![Build Status](https://github.com/dutchcoders/transfer.sh/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/dutchcoders/transfer.sh/actions/workflows/test.yml?query=branch%3Amaster)
 
 Easy and fast file sharing from the command-line. This code contains the server with everything you need to create your own instance.
